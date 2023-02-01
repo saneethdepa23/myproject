@@ -1,0 +1,63 @@
+@media screen and (max-width: 300px) {
+  .col-20,
+  .col-80 {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  resize: both;
+  height: 70%;
+  font-weight: 550;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: oblique;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(136, 136, 136, 0.8);
+  width: fit-content;
+  height: 100%;
+  margin: auto;
+  margin-top: 3%;
+  padding: 0 0px;
+  border-radius: 5px;
+}
+label {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.col-20 {
+  float: left;
+  margin-top: 2px;
+}
+
+.col-80 {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,43 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(136, 136, 136, 0.8);
+  min-width: 300px;
+  width: 35vw;
+  height: 100%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+form > input[type="password"] {
+  min-width: 280px;
+  width: 30vw;
+  height: 37px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 0.3rem;
+}
+input[type="submit"] {
+  min-width: 190px;
+  width: 20vw;
+  height: 37px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 0.3rem;
+  background-color: rgb(210, 64, 64);
+  transform: translateX(25%);
+  color: aliceblue;
+  font-weight: bold;
+  transition: all 1s;
+}
+input[type="submit"]:hover {
+  background-color: aliceblue;
+  color: rgb(210, 64, 64);
+}
